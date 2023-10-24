@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    default: local
+    active:
+      - ${profile:local}
+
+
+
